@@ -1,0 +1,19 @@
+body {
+    background-image: url('/cdn/pattern.png');
+    background-repeat: repeat;
+
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.text {
+  color: #fff;
+  font-size: 3rem;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
